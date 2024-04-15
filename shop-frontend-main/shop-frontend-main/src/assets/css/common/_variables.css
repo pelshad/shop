@@ -1,0 +1,6 @@
+@import "_font.css";
+
+:root {
+    /* 폰트 */
+    --main-font: 'Pretendard-Regular';
+}

@@ -1,0 +1,63 @@
+{
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@ckeditor/ckeditor5-alignment": "^36.0.1",
+        "@ckeditor/ckeditor5-build-classic": "^35.3.2",
+        "@ckeditor/ckeditor5-react": "^5.0.3",
+        "@nivo/bar": "^0.80.0",
+        "@nivo/core": "^0.80.0",
+        "@nivo/line": "^0.80.0",
+        "@nivo/pie": "^0.80.0",
+        "@reduxjs/toolkit": "^1.9.5",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@tosspayments/payment-widget-sdk": "^0.7.2",
+        "axios": "^1.2.0",
+        "crypto": "^1.0.1",
+        "crypto-js": "^4.1.1",
+        "file-saver": "^2.0.5",
+        "http-proxy-middleware": "^2.0.6",
+        "moment": "^2.29.4",
+        "mysql": "^2.18.1",
+        "nanoid": "^4.0.2",
+        "react": "^18.2.0",
+        "react-cookie": "^4.1.1",
+        "react-daum-postcode": "^3.1.1",
+        "react-dom": "^18.2.0",
+        "react-query": "^3.39.2",
+        "react-redux": "^8.1.1",
+        "react-router-dom": "^6.4.3",
+        "react-scripts": "5.0.1",
+        "redux": "^4.2.1",
+        "styled-components": "^5.3.6",
+        "typescript": "^4.9.5",
+        "web-vitals": "^2.1.4",
+        "xlsx": "^0.18.5",
+        "yarn": "^1.22.19"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "webpack-dev-server": "^4.11.1"
+    },
+    "proxy": "https://lifehim.com"
+}
